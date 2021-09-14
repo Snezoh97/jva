@@ -10,9 +10,9 @@
  */
 import java.util.Scanner;
 import java.util.Stack;
-public class JavaPrime {
-
-     static Scanner input = new Scanner(System.in);
+public class NewMain {
+    
+    static Scanner input = new Scanner(System.in);
         public static boolean isPrimeIter(int n1){
         
             if(n1>1){
@@ -74,7 +74,9 @@ public class JavaPrime {
         else
         return rpredn1;
 }
+    
     public static void main(String[] args) {
+        
          Stack<Integer>fi = new Stack<Integer>();
         Stack<Integer> fr =new Stack<Integer>();
             
